@@ -1,5 +1,7 @@
-public class Main{
-    public static void main (String [] args){
+public class Main {
+    public static void main(String[] args) {
+        // kode program akan disisipkan di sin
+
         System.out.println("Hello, World");
         System.out.println();
         System.out.println("Politeknik Negeri Banyuwangi");
