@@ -8,6 +8,5 @@ sisiA;SisiB;SisiC;Tinggi:
 titik koma digunakan  untuk memisakan antar colom
 
 contoh:
-
 A B C t
 1;2;3;5
