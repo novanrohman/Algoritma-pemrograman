@@ -10,7 +10,7 @@ Contoh:
 
 A B C t
 
-1;2;3;5
+1;2;3;5<br>
 2;3;4;7
 
 ## tampilan datanya kira-kira seperti ini
