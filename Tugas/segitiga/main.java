@@ -25,7 +25,7 @@ public class main {
 
         //Cek sisi terpanjang
         if (A > B && A > C) {
-          panjang = A * A; //meangkatkan sisi terpanjang
+          panjang = A * A; //memangkatkan sisi terpanjang
           sisi = B + C; //menjumlahkan 2 sisi
           sisi_2 = sisi * sisi; //memangkatkan 2 sisi
           
