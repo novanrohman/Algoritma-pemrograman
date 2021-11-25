@@ -17,19 +17,19 @@ public class Main{
 
     switch (choice){
       case 1:
-      penjumlahan();
+      penjumlahan(); break;
       case 2:
-      pengurangan();
+      pengurangan(); break;
       case 3:
-      perkalian();
+      perkalian(); break;
       case 4:
-      pembagian();
+      pembagian(); break;
       case 5:
-      sisa_bagi();
-    }
+      sisa_bagi(); break;
+    } 
   }
 
-    static void penjumlahan(){
+    public static void penjumlahan(){
       Scanner math1 = new Scanner(System.in);
       double a, b, c;
 
@@ -39,10 +39,9 @@ public class Main{
       b = math1.nextInt();
       c = a+b;
       System.out.println("Hasil =" + c);
-      return;
-    }
+      }
 
-    static void pengurangan(){
+    public static void pengurangan(){
       Scanner math1 = new Scanner(System.in);
       double a, b, c;
       System.out.println("Masukkan Angka Pertama: ");
@@ -51,10 +50,9 @@ public class Main{
       b = math1.nextInt();
       c = a-b;
       System.out.println("Hasil : " + c);
-      return;
-    }
+      }
 
-    static void perkalian(){
+   public static void perkalian(){
       Scanner math1 = new Scanner(System.in);
       double a, b, c;
 
@@ -64,10 +62,9 @@ public class Main{
       b = math1.nextInt();
       c = a*b;
       System.out.println("Hasil : " + c);
-      return;
-    }
+      }
 
-    static void pembagian(){
+    public static void pembagian(){
       Scanner math1 = new Scanner(System.in);
       double a, b, c;
       
@@ -77,10 +74,9 @@ public class Main{
       b = math1.nextInt();
       c = a / b;
       System.out.println("Hasil : " + c);
-      return;
-    }
+      }
 
-    static void sisa_bagi(){
+    public static void sisa_bagi(){
       Scanner math1 = new Scanner(System.in);
       double a, b, c;
 
@@ -90,6 +86,5 @@ public class Main{
       b = math1.nextInt();
       c = a % b;
       System.out.println("Hasil : " + c);
-      return;
-    }
+      }
 }
