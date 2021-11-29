@@ -13,7 +13,8 @@ public class dua {
     int hasil=1;
     // hasil=bil_dasar;
     for (int i=0; i<bil_eksponen; i++) {
-      hasil=hasil*bil_dasar;
+      hasil=hasil*bil_dasar; //hasil perkalian akan di simpan ke variabel hasil
+
     }
         System.out.println(hasil);
     // System.out.println(Math.pow(bil_dasar,bil_eksponen));
