@@ -10,12 +10,12 @@ public class dua {
     bil_dasar = scanner.nextInt();
     System.out.print("Masukkan bilangan eksponen: ");
     bil_eksponen = scanner.nextInt();
-
+    int hasil=1;
+    // hasil=bil_dasar;
     for (int i=0; i<bil_eksponen; i++) {
-        // System.out.println(bil_dasar);
-
-    
+      hasil=hasil*bil_dasar;
     }
-    System.out.println(Math.pow(bil_dasar,bil_eksponen));
+        System.out.println(hasil);
+    // System.out.println(Math.pow(bil_dasar,bil_eksponen));
   }
 }
