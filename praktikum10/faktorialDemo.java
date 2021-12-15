@@ -9,7 +9,7 @@ public class faktorialDemo{
     }
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.println("N = ");
+        System.out.print("N = ");
         int n = input.nextInt();
         System.out.println("Hasil = " + faktorial(n));
     }
