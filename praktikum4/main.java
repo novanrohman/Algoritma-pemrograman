@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class main{    
+public class Main{ 
+    public static void main(String[] args){   
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkkan nilai a:");
         int a= scanner.nextInt();
@@ -9,11 +10,13 @@ public class main{
         if(a==b){
             System.out.println(a);
             System.out.println(b);
+            System.out.println("Kedua nilai sama")
         } else if (a>b) {
             System.out.println(b);
         } else {
             System.out.println(a);
         }
+    }
 }
 
 // import java.util.Scanner;
