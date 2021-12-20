@@ -1,6 +1,6 @@
 import java.util.*;
 public class faktorialDemo{
-    public static int faktorial(int x){
+    public static int faktorial(int n){
         if (x == 0 || x == 1){
             return 1;
         } else {

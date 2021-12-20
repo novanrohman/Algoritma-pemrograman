@@ -14,7 +14,6 @@ public class main{
         } else {
             System.out.println(a);
         }
-    }
 }
 
 // import java.util.Scanner;
