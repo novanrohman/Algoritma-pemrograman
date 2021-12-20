@@ -1,4 +1,4 @@
-class BinarySearch{
+public class BinarySearch{
   int binarySearch(int arr[], int l, int r, int x){
     if (r >= l && l<arr.length-1) {
       int mid = l + (r - l) / 2;
